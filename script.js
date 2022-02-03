@@ -2,10 +2,9 @@ let lang=0;
 		
 		function changetext(){
 		if(lang==0){
-		document.getElementById("xo").innerHTML="Wer das ließt kann lesen.";
-		lang=1;
+			document.querySelector("h1").textContent = "Wer das ließt kann lesen."; 
 	    }else{
-	    document.getElementById("xo").innerHTML="If you can read this you can read.";
+			document.querySelector("h1").textContent = "If you can read this you can read.";
 		lang=0;
 		}
 	
